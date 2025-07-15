@@ -2,8 +2,8 @@ export default function Main() {
 
     return (
 
-        < Main >
+        <main>
 
-        </Main >
+        </main>
     );
 }
