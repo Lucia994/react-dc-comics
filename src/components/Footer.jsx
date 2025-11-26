@@ -1,4 +1,116 @@
 export default function Footer() {
+  const menuDc = [
+    {
+      title: "Terms Of Use",
+      path: "/terms-of-use",
+    },
+    {
+      title: "Privacy policy(News)",
+      path: "/privacy-policy",
+    },
+    {
+      title: "Ad Choices",
+      path: "/ad-choices",
+    },
+    {
+      title: "Advertising",
+      path: "/advertising",
+    },
+    {
+      title: "Jobs",
+      path: "/jobs",
+    },
+    {
+      title: "Subsriptions",
+      path: "/subsriptions",
+    },
+    {
+      title: "Talent Worshops",
+      path: "/talent-worshops",
+    },
+    {
+      title: "CPSC Certificates",
+      path: "/cpsc-certificates",
+    },
+    {
+      title: "Ratings",
+      path: "/ratings",
+    },
+    {
+      title: "Shop Help",
+      path: "/shop-help",
+    },
+    {
+      title: "Contact Us",
+      path: "/contact-us",
+    },
+  ];
+
+  const menuDcComics = [
+    {
+      title: "Characters",
+      path: "/characters",
+    },
+    {
+      title: "Comics",
+      path: "/comics",
+    },
+    {
+      title: "Movies",
+      path: "/movies",
+    },
+    {
+      title: "Tv",
+      path: "/tv",
+    },
+    {
+      title: "Games",
+      path: "/games",
+    },
+    {
+      title: "Videos",
+      path: "/videos",
+    },
+    {
+      title: "News",
+      path: "/news",
+    },
+  ];
+
+  const menuSites = [
+    {
+      title: "DC",
+      path: "/dc",
+    },
+    {
+      title: "MAD Magazine",
+      path: "/mad-magazine",
+    },
+    {
+      title: "DC Kids",
+      path: "/dc-kids",
+    },
+    {
+      title: "DC Universe",
+      path: "dc-universe",
+    },
+    {
+      title: "DC Power Visa",
+      path: "dc-power-visa",
+    },
+  ];
+
+  const menuShop = [
+    {
+      title: "Shop DC",
+      path: "/shop-dc",
+    },
+    {
+      title: "Shop DC Collectibles",
+      path: "/shop-dc-collectibles",
+    },
+  ];
+
   return (
     <footer>
       <section className="footer-top">
@@ -9,37 +121,12 @@ export default function Footer() {
               <li>
                 <a href="">Characters</a>
               </li>
+            </ul>
+            <h3>SHOP</h3>
+            <ul>
               <li>
-                <a href="">Comics</a>
+                <a href="">Characters</a>
               </li>
-              <li>
-                <a href="">Movies</a>
-              </li>
-              <li>
-                <a href="">Tv</a>
-              </li>
-              <li>
-                <a href="">Games</a>
-              </li>
-              <li>
-                <a href="">Videos</a>
-              </li>
-              <li>
-                <a href="">News</a>
-              </li>
-
-              <h3>SHOP</h3>
-              <ul>
-                <li>
-                  <a href="">Characters</a>
-                </li>
-                <li>
-                  <a href="">Comics</a>
-                </li>
-                <li>
-                  <a href="">Movies</a>
-                </li>
-              </ul>
             </ul>
           </div>
           <div className="col">
@@ -48,24 +135,6 @@ export default function Footer() {
               <li>
                 <a href="">Characters</a>
               </li>
-              <li>
-                <a href="">Comics</a>
-              </li>
-              <li>
-                <a href="">Movies</a>
-              </li>
-              <li>
-                <a href="">Tv</a>
-              </li>
-              <li>
-                <a href="">Games</a>
-              </li>
-              <li>
-                <a href="">Videos</a>
-              </li>
-              <li>
-                <a href="">News</a>
-              </li>
             </ul>
           </div>
           <div className="col">
@@ -73,24 +142,6 @@ export default function Footer() {
             <ul>
               <li>
                 <a href="">Characters</a>
-              </li>
-              <li>
-                <a href="">Comics</a>
-              </li>
-              <li>
-                <a href="">Movies</a>
-              </li>
-              <li>
-                <a href="">Tv</a>
-              </li>
-              <li>
-                <a href="">Games</a>
-              </li>
-              <li>
-                <a href="">Videos</a>
-              </li>
-              <li>
-                <a href="">News</a>
               </li>
             </ul>
           </div>
