@@ -153,7 +153,11 @@ export default function Footer() {
             <h3>SITES</h3>
             <ul>
               <li>
-                <a href="">Characters</a>
+                {linkMenuSites.map((curLinkSite, index) => (
+                  <li key={index}>
+                    <a href="">{curLinkSite.title}</a>
+                  </li>
+                ))}
               </li>
             </ul>
           </div>
