@@ -129,7 +129,11 @@ export default function Footer() {
             <h3>SHOP</h3>
             <ul>
               <li>
-                <a href="">Characters</a>
+                {linkMenuShop.map((curLinkShop, index) => (
+                  <li key={index}>
+                    <a href="">{curLinkShop.title}</a>
+                  </li>
+                ))}
               </li>
             </ul>
           </div>
