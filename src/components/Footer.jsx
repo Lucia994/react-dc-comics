@@ -119,9 +119,9 @@ export default function Footer() {
             <h3>DC COMICS</h3>
             <ul>
               <li>
-                {linkMenuDC.map((curLinkDC, index) => (
+                {linkMenuDcComics.map((curLinkDComic, index) => (
                   <li key={index}>
-                    <a href="">{curLinkDC.title}</a>
+                    <a href="">{curLinkDComic.title}</a>
                   </li>
                 ))}
               </li>
@@ -141,7 +141,11 @@ export default function Footer() {
             <h3>DC </h3>
             <ul>
               <li>
-                <a href="">Characters</a>
+                {linkMenuDC.map((curLinkDC, index) => (
+                  <li key={index}>
+                    <a href="">{curLinkDC.title}</a>
+                  </li>
+                ))}
               </li>
             </ul>
           </div>
