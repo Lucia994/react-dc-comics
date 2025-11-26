@@ -4,6 +4,7 @@ import bcShopLocator from "../assets/img/buy-comics-shop-locator.png";
 import bcSubscriptions from "../assets/img/buy-comics-subscriptions.png";
 import dcPowerVisa from "../assets/img/buy-dc-power-visa.svg";
 import jumbotron from "../assets/img/jumbotron.jpg";
+import { comics } from "../assets/comics";
 
 export default function Main() {
   return (
@@ -11,7 +12,19 @@ export default function Main() {
       <section className="sectionJumbotron">
         <img src={jumbotron} />
       </section>
-      <div className="sectionFirst flex">{/*Insert item cards*/}</div>
+      <section className="sectionFirst flex">
+        {/*Insert item cards*/}
+        <section>
+          <ul className="card flex">
+            {comics.map((comic) => (
+              <li key={comic.id}>
+                <img src={comic.thumb} />
+                <h5>{comic.title}</h5>
+              </li>
+            ))}
+          </ul>
+        </section>
+      </section>
       <div className="sectionSecond flex j-content-between align-items-center">
         <div className="item">
           <div className="img">
