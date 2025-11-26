@@ -11,7 +11,7 @@ export default function Main() {
       <section className="sectionJumbotron">
         <img src={jumbotron} />
       </section>
-      <div className="sectionFirst flex">--&gt;Content goes here&lt;--</div>
+      <div className="sectionFirst flex">{/*Insert item cards*/}</div>
       <div className="sectionSecond flex j-content-between align-items-center">
         <div className="item">
           <div className="img">
