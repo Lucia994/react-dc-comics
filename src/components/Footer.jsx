@@ -1,5 +1,5 @@
 export default function Footer() {
-  const menuDc = [
+  const linkMenuDC = [
     {
       title: "Terms Of Use",
       path: "/terms-of-use",
@@ -46,7 +46,7 @@ export default function Footer() {
     },
   ];
 
-  const menuDcComics = [
+  const linkMenuDcComics = [
     {
       title: "Characters",
       path: "/characters",
@@ -77,7 +77,7 @@ export default function Footer() {
     },
   ];
 
-  const menuSites = [
+  const linkMenuSites = [
     {
       title: "DC",
       path: "/dc",
@@ -100,7 +100,7 @@ export default function Footer() {
     },
   ];
 
-  const menuShop = [
+  const linkMenuShop = [
     {
       title: "Shop DC",
       path: "/shop-dc",
@@ -119,7 +119,11 @@ export default function Footer() {
             <h3>DC COMICS</h3>
             <ul>
               <li>
-                <a href="">Characters</a>
+                {linkMenuDC.map((curLinkDC, index) => (
+                  <li key={index}>
+                    <a href="">{curLinkDC.title}</a>
+                  </li>
+                ))}
               </li>
             </ul>
             <h3>SHOP</h3>
