@@ -1,31 +1,26 @@
-import bcDigitalComics from "../assets/img/buy-comics-digital-comics.png";
-import bcMerchandise from "../assets/img/buy-comics-merchandise.png";
-import bcShopLocator from "../assets/img/buy-comics-shop-locator.png";
-import bcSubscriptions from "../assets/img/buy-comics-subscriptions.png";
-import dcPowerVisa from "../assets/img/buy-dc-power-visa.svg";
 import jumbotron from "../assets/img/jumbotron.jpg";
 import { comics } from "../data/comics";
 import ComicCardList from "./ComicCardList";
 
 const itemsMenuMain = [
   {
-    src: bcDigitalComics,
+    src: "/images/buy-comics-digital-comics.png",
     title: "DIGITAL COMICS",
   },
   {
-    src: "/imgs/buy-comics-merchandise.png",
+    src: "/images/buy-comics-merchandise.png",
     title: "DC MERCHANDISE",
   },
   {
-    src: "../assets/img/buy-comics-shop-locator.png",
+    src: "/images/buy-comics-shop-locator.png",
     title: "SUBSCRIPTION",
   },
   {
-    src: "../assets/img/buy-comics-subscriptions.png",
+    src: "/images/buy-comics-subscriptions.png",
     title: "COMIC SHOP LOCATOR",
   },
   {
-    src: "../assets/img/buy-dc-power-visa.png",
+    src: "/images/buy-dc-power-visa.svg",
     title: "DC POWER VISA",
   },
 ];
@@ -50,44 +45,6 @@ export default function Main() {
               </li>
             ))}
           </ul>
-          {/* <div className="img">
-            <img src={bcDigitalComics} />
-          </div>
-          <div className="title">
-            <h4>DIGITAL COMICS</h4>
-          </div> */}
-          {/* </div>
-        <div className="item">
-          <div className="img">
-            <img src={bcMerchandise} />
-          </div>
-          <div className="title">
-            <h4>DC MERCHANDISE</h4>
-          </div>
-        </div>
-        <div className="item">
-          <div className="img">
-            <img src={bcShopLocator} />
-          </div>
-          <div className="title">
-            <h4>SUBSTRIPTION</h4>
-          </div>
-        </div>
-        <div className="item">
-          <div className="img">
-            <img src={bcSubscriptions} />
-          </div>
-          <div className="title">
-            <h4>COMIC SHOP LOCATOR</h4>
-          </div>
-        </div>
-        <div className="item">
-          <div className="img">
-            <img src={dcPowerVisa} />
-          </div>
-          <div className="title">
-            <h4>DC POWER VISA</h4>
-          </div>*/}
         </div>
       </div>
     </main>
