@@ -51,9 +51,9 @@ Continuate a lavorare nella stessa repo di ieri e create un nuovo componente riu
 
 Bonus: Provare a centralizzare i dati facendoli partire tutti da App.jsx e passandoli via prop ai vari componenti che li necessitano
 
-creare componente card
 creare cartella data all'interno di src
 creare cartella data all'interno file comics.js
+creare componente card
 importare array in card
 realizzare card componente e la sua logica
 importare la componemte in main
