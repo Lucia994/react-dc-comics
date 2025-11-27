@@ -45,3 +45,15 @@ Nel footer abbiamo due sezioni una top e l'altra bottom
 Nel sezione footer top abbiamo immagine di sfondo poi immagine logo ingrandita e rotata che sovrasta l'immagine di sfondo
 Elenco menu in tre colonne
 Footer bottom menu con icone
+
+Descrizione:
+Continuate a lavorare nella stessa repo di ieri e create un nuovo componente riutilizzabile per visualizzare le card dei fumetti, sfruttando l’array di oggetti in allegato. Fate in modo che il componente riceva i dati del singolo fumetto come props.
+
+Bonus: Provare a centralizzare i dati facendoli partire tutti da App.jsx e passandoli via prop ai vari componenti che li necessitano
+
+creare componente card
+creare cartella data all'interno di src
+creare cartella data all'interno file comics.js
+importare array in card
+realizzare card componente e la sua logica
+importare la componemte in main

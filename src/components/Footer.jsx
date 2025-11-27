@@ -110,6 +110,33 @@ export default function Footer() {
       path: "/shop-dc-collectibles",
     },
   ];
+  const menuSocial = [
+    {
+      name: "facebook",
+      path: "/facebook",
+      src: "../assets/img/footer-facebook.png",
+    },
+    {
+      name: "twitter",
+      path: "/twitter",
+      src: "../assets/img/footer-twitter.png",
+    },
+    {
+      name: "youtube",
+      path: "/youtube",
+      src: "../assets/img/footer-youtube.png",
+    },
+    {
+      name: "pintarest",
+      path: "/pintarest",
+      src: "../assets/img/footer-pintarest.png",
+    },
+    {
+      name: "periscope",
+      path: "/periscope",
+      src: "../assets/img/footer-periscope.png",
+    },
+  ];
 
   return (
     <footer>
@@ -169,8 +196,12 @@ export default function Footer() {
         </button>
         <nav className="menu-social flex">
           <h2>FOLLOW US</h2>
-          <ul>
-            <li></li>
+          <ul className="flex j-content-between align-items-center">
+            {menuSocial.map((curLinkSocial, index) => (
+              <li key={index}>
+                <img src={curLinkSocial.src} />
+              </li>
+            ))}
           </ul>
         </nav>
       </section>
