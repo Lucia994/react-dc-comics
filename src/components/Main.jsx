@@ -38,14 +38,14 @@ export default function Main() {
       <section className="sectionFirst flex">
         {/*Insert item cards*/}
         <section>
-          <ul className="card flex j-content-between align-items-center">
+          {/* <ul className="card flex j-content-between align-items-center">
             {comics.map((comic) => (
               <li key={comic.id}>
                 <img src={comic.thumb} />
                 <h5>{comic.title}</h5>
               </li>
             ))}
-          </ul>
+          </ul> */}
         </section>
       </section>
       <div className="sectionSecond">
