@@ -3,13 +3,16 @@ import ComicCard from "./ComicCard";
 
 export default function ComicCardList() {
   return (
-    <ul className="card flex j-content-between align-items-center">
-      {comics.map((comic) => (
-        <li key={comic.id}>
-          <img src={comic.thumb} />
-          <h5>{comic.title}</h5>
-        </li>
-      ))}
-    </ul>
+    <>
+      <ul className="card flex j-content-between align-items-center">
+        {comics.map((comic) => (
+          <ComicCard key={comic.id}>
+            thumb={comic.thumb}
+            title={comic.title}
+          </ComicCard>
+        ))}
+        ;
+      </ul>
+    </>
   );
 }
